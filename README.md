@@ -1,5 +1,3 @@
-# projeto-locadora
-
 # Projeto para a disciplina de Programação WEB
 
 ## 2.1 Tela de login
