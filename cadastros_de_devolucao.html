@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+ 
+<html lang="pt-br">
+ <head>
+	<title> Cadastro de Devolução </title>
+	<meta name="description" content="Assista filmes online onde e quando você quiser ">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" > 
+ </head>
+ 
+
+    <body>
+        <h1> CADASTRO DE DEVOLUÇÃO </h1> 
+    <br><br>
+        <form name="devolucao" action="Formulario_devolucao" method="post">
+        <fieldset>
+            <label for="cliente">SELECIONE UM CLIENTE :</label>
+            <select id= cliente name="cliente" size="1">	
+                <option value="valor1">-------------</option>
+                <option value="valor2">berow</option>
+                <option value="valor3">flávia</option>
+                <option value="valor4">malu</option>
+                <option value="valor5">lucas</option>
+            </select>
+        <br>
+        Data :
+        <input type="text" name="dia" size="2" maxlength="2" placeholder="dd"> 
+        <input type="text" name="mes" size="2" maxlength="2" placeholder="mm"> 
+        <input type="text" name="ano" size="4" maxlength="4" placeholder="aaaa">
+        <br>
+        STATUS :
+        <input type="radio" id="dentro.do.prazo" name="status" value="Dprazo">
+        <label for="dentro.do.prazo">Dentro do prazo</label>
+        <input type="radio" id="atrasado" name="status" value="Fprazo">
+        <label for="atrasado">Atrasado</label><br>
+        OBSERVAÇÕES <br>
+        <textarea rows="10" cols="40" maxlength="500" placeholder="Digite uma mensagem ..."></textarea>
+        <br>
+        <input type="button" name="botao-confirmar" value="CONFIRMAR">
+        </fieldset>
+        </form>
+    </body>
+</html>
