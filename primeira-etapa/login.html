@@ -10,13 +10,17 @@
     <main>
         <h2>Vamos começar</h2>
         <div>
-            <form>
-                <strong>Usuário:</strong>
-                <input type="email" name="usuario" placeholder="Email do usuário" required>
-                <strong>Senha:</strong>
-                <input type="password" name="senha" placeholder="Sua senha" required>
-                <button type="submit"><a href="inicio.html">ENTRAR</a></button>
-            </form>    
+            <fieldset>
+                <form>
+                    <strong>Usuário:</strong>
+                    <input type="text" name="usuario" id="login-email" placeholder="Email do usuário" required>
+                    <br> <br>
+                    <strong>Senha:</strong>
+                    <input type="password" name="senha" id="login-senha" placeholder="Sua senha" required>
+                    <br> <br>
+                    <button type="submit"><a href="inicio.html">ENTRAR</a></button>
+                </form> 
+            </fieldset>
         </div>
     </main>
 </body>
