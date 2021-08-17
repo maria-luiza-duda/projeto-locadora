@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    height: 70px;  
+    box-shadow: 0px 2px 10px rgba(0, 0, 0.25, 0.25);
+    background: #000;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+}
+
+header p {
+    color: white;
+    text-align: right;
+    padding-right: 20px;
+}
+
+header h3 {
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+header button {
+    margin-left: 1060px;
+    border-color: transparent;
+}
+
+main .cabecalho {
+    margin-top: 100px;
+    margin-left: 470px;
+    position: absolute;
+}
+
+.logo img {
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.menu1 {
+    margin-left: 850px;
+    padding-top: 180px;
+    position: absolute;
+}
+
+.menu1 button {
+    background-color: black;
+    height: 30px;
+    width: 210px;
+}
+
+.menu1 button a {
+    font-size: 1em;
+    color: white;
+}
+
+.menu2 {
+    margin-left: 540px;
+    padding-top: 50px;
+}
+
+.menu2 .acervo-btn {
+    background-color: black;
+    height: 30px;
+    width: 210px;
+}
+
+.menu2 button a {
+    font-size: 1em;
+    color: white;
+}
+
+.menu2 .sobre-btn {
+    background-color: black;
+    height: 30px;
+    width: 110px;
+    margin-top: 500px;
+    margin-left: 50px;
+}
+
+
+.gradient {
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #0000, #ecc0c0, #0000, #797878c7);
+    height: 200vh;
+    width: 100vw;
+    background-size: 300% 100%;
+    animation: colors 15s infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+       
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+
+}

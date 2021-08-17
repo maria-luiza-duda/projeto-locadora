@@ -4,24 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='/css/login.css'>
     <title>Locadora de Filmes</title>
 </head>
-<body>
-    <main>
-        <h2>Vamos começar</h2>
+<header>
+    <h3>Locadora de Streams</h3><p>Stream is the new fita.</p>
+</header>
+<body class="gradient">
+     <main>
         <div>
-            <fieldset>
-                <form>
-                    <strong>Usuário:</strong>
-                    <input type="text" name="usuario" id="login-email" placeholder="Email do usuário" required>
-                    <br> <br>
-                    <strong>Senha:</strong>
-                    <input type="password" name="senha" id="login-senha" placeholder="Sua senha" required>
-                    <br> <br>
-                    <button type="submit"><a href="inicio.html">ENTRAR</a></button>
-                </form> 
-            </fieldset>
-        </div>
-    </main>
+            <img src="/img/streamfita-removebg-preview.png">
+            <h2>Vamos começar</h2>
+            <div id="area">
+                <form id="formulario" autocomplete="off">
+                    <strong class="label_email">Usuário:</strong><input class="input_email" type="text" name="usuario" id="login-email" placeholder="Email do usuário" required><br><br> 
+                    <strong class="label_senha">Senha:</strong><input class="input_senha" type="password" name="senha" id="login-senha" placeholder="Sua senha" required><br><br>
+                    <button type="submit"><a href="inicio.html">Entrar</a></button><br><br>
+                    <a href="cadastroUsuarios.html">Cadastrar-se</a><br>
+                    <a href="cadastroFuncionarios.html">Sou funcionário</a>
+                </form>  
+            </div>
+        <div>
+    </main> 
 </body>
 </html>
