@@ -1,0 +1,22 @@
+{
+  "name": "projeto-locadora",
+  "version": "1.0.0",
+  "description": "Esta será a primeira tela do sistema. Ao clicar no botão entrar o sistema deverá ser\r direcionado à Tela Principal.\r (Não haverá validação de campos.)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maria-luiza-duda/projeto-locadora.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maria-luiza-duda/projeto-locadora/issues"
+  },
+  "homepage": "https://github.com/maria-luiza-duda/projeto-locadora#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
