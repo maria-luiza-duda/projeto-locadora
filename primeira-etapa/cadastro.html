@@ -4,28 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastros</title>
+    <link rel='stylesheet' href='/css/cadastro.css' />
+    <link REL="SHORTCUT ICON" HREF="/img/LocarFita.png" type="image/x-icon">
+    <title>Cadastros - Stream Fita</title>
 </head>
-    <body>
+    <body class="gradient">
         <header>
-            <h1>Locadora de Filmes</h1>
             <form action="/primeira-etapa/inicio.html">
-                <button type="submit" id="voltar"><img src="/img/voltar.png" height="20px" width="20px"></button>
+               <button class="inicio"><img src="/img/LocarFita.png" height="50px"> </button>
             </form>
+            <h3>Locadora de Streams</h3>
+            <div class="nome-usuario">
+               <p >Olá fulan@!</p> 
+            </div>
+            <div class="slogan">
+                <p>Stream is the new fita.</p>
+            </div>
+            
         </header>
-        
-        <h2>Cadastros</h2>
-        
-        <nav>
-            <ul>
-                <li>
-                    <span><a target="blank"href="cadastroFilmes.html">Filmes</a></span>
-                </li>
-                <li>
-                    <a target="blank"href="cadastroUsuarios.html">Usuário</a>
-                </li>
-            </ul>
-        </nav>
-        
+        <main>
+            <div class="voltar">
+                <form action="/primeira-etapa/inicio.html">
+                  <button type="submit" id="voltar"><img src="/img/Locar Fita (2).png" height="40px" width="40px"></button>
+              </form> 
+            </div>
+
+            <section class="cadastro-actions">
+                <div class="cadastro-filmes">
+                    <h3>Contribua com o nosso acervo</h3><br><br> 
+                    <form action="/primeira-etapa/cadastroFilmes.html">
+                        <button><img src="/img/pngwing.com.png" height="230px" width="260px"></button>
+                    </form>
+                    
+                </div> 
+                <div class="cadastro-funcionario">
+                    <h3>É funcionário? Crie seu cadastro.</h3><br><br>
+                    <form action="/primeira-etapa/cadastroFuncionarios.html">
+                    <button><img src="/img/func.png" height="230px" width="260px"></button> 
+                    </form>
+                </div>
+        </section>
+       </main>
+            
     </body>
 </html>

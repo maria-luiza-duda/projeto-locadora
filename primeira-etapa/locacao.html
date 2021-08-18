@@ -4,44 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Locadora de Filmes</title>
+    <link rel='stylesheet' href='/css/locacao.css' />
+    <link REL="SHORTCUT ICON" HREF="/img/LocarFita.png" type="image/x-icon">
+    <title>Locar Stream - Stream Fita</title>
 </head>
     <body>
         <header>
-            <h1>Locadora de Filmes</h1>
             <form action="/primeira-etapa/inicio.html">
-                <button type="submit" id="voltar"><img src="/img/voltar.png" height="20px" width="20px"></button>
+               <button class="inicio"><img src="/img/LocarFita.png" height="50px"> </button>
             </form>
+            <h3>Locadora de Streams</h3>
+            <div class="nome-usuario">
+               <p >Olá fulan@!</p> 
+            </div>
+            <div class="slogan">
+                <p>Stream is the new fita.</p>
+            </div>
+            
         </header>
+        <main>
+            <div class="voltar">
+                <form action="/primeira-etapa/inicio.html">
+                <button type="submit" id="voltar"><img src="/img/Locar Fita (2).png" height="40px" width="40px"></button>
+                </form> 
+            </div>
 
-        <h2> CADASTRO DE LOCAÇÃO </h2> 
-    <br><br>
-        <form name="locacao" action="Formulario_locacao" method="post">
-            <fieldset>
-                <label for="cliente">SELECIONE UM CLIENTE :</label>
-                <select id= cliente name="cliente" size="1">	
-                    <option value="valor1">-------------</option>
-                    <option value="valor2">berow</option>
-                    <option value="valor3">flávia</option>
-                    <option value="valor4">malu</option>
-                    <option value="valor5">lucas</option>
-                </select>
-                <br>
-                Data Locação:
-                    <input type="text" name="dia" size="2" maxlength="2" placeholder="dd"> 
-                    <input type="text" name="mes" size="2" maxlength="2" placeholder="mm"> 
-                    <input type="text" name="ano" size="4" maxlength="4" placeholder="aaaa">
-                    <br>
-                Data Entrega:
-                    <input type="text" name="dia" size="2" maxlength="2" placeholder="dd"> 
-                    <input type="text" name="mes" size="2" maxlength="2" placeholder="mm"> 
-                    <input type="text" name="ano" size="4" maxlength="4" placeholder="aaaa">
-                    <br>
-                OBSERVAÇÕES <br>
-                    <textarea rows="10" cols="40" maxlength="500" placeholder="Digite uma mensagem ..."></textarea>
-                    <br>
-                    <input type="button" name="botao-confirmar" value="CONFIRMAR">
-            </fieldset>
-        </form>
+            <div class="locar-action">
+                <h2> CADASTRO DE LOCAÇÃO </h2> 
+                <br><br>
+                <form name="locacao" action="Formulario_locacao" method="post">
+                    <fieldset>
+                        <label for="cliente">SELECIONE UM CLIENTE :</label>
+                        <select id= cliente name="cliente" size="1">	
+                            <option value="valor1">-------------</option>
+                            <option value="valor2">berow</option>
+                            <option value="valor3">flávia</option>
+                            <option value="valor4">malu</option>
+                            <option value="valor5">lucas</option>
+                        </select>
+                        <br>
+                        Data Locação:
+                            <input type="text" name="dia" size="2" maxlength="2" placeholder="dd"> 
+                            <input type="text" name="mes" size="2" maxlength="2" placeholder="mm"> 
+                            <input type="text" name="ano" size="4" maxlength="4" placeholder="aaaa">
+                            <br>
+                        Data Entrega:
+                            <input type="text" name="dia" size="2" maxlength="2" placeholder="dd"> 
+                            <input type="text" name="mes" size="2" maxlength="2" placeholder="mm"> 
+                            <input type="text" name="ano" size="4" maxlength="4" placeholder="aaaa">
+                            <br>
+                        OBSERVAÇÕES <br>
+                            <textarea rows="10" cols="40" maxlength="500" placeholder="Digite uma mensagem ..."></textarea>
+                            <br>
+                            <input type="button" name="botao-confirmar" value="CONFIRMAR">
+                    </fieldset>
+                </form>
+            </div>
+            
+        </main>
+        
     </body>
 </html>

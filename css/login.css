@@ -10,18 +10,39 @@ header {
     box-shadow: 0px 2px 10px rgba(0, 0, 0.25, 0.25);
     background: #000;
     position: fixed;
+    margin: 0px;
+    padding: 0px;
 }
 
-header p {
-    color: white;
-    text-align: right;
-    padding-right: 20px;
+header form button {
+    background-color: black;
+    border-color: transparent;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+header form button:hover {
+    background-color: gray;
 }
 
 header h3 {
     color: white;
-    padding-top: 20px;
-    padding-left: 20px;
+    position:relative;
+    margin-top: 20px;
+    position: relative;
+    margin-left: 555px;
+}
+
+header .slogan p {
+    position: absolute;
+    color: white;
+    margin-left: 1020px;
+    text-align: right;
+}
+
+body {
+    background-image: url("/img/locadora.jpg");
 }
 
 main {

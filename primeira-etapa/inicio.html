@@ -5,54 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href='/css/inicio.css' />
-    <title>Locadora de Filmes</title>
+    <link REL="SHORTCUT ICON" HREF="/img/LocarFita.png" type="image/x-icon">
+    <script src="/js/script.js"></script>
+    <title>Inicio - Stream Fita</title>
 </head>
     <body class="gradient">
         <header>
-            <h3>Locadora de Streams</h3><p>Stream is the new fita.</p>
-            <form action="/primeira-etapa/login.html">
-                <button type="submit" id="voltar"><img src="/img/voltar.png" height="20px" width="20px"></button>
-            </form> 
+            <form action="/primeira-etapa/inicio.html">
+               <button class="inicio"><img src="/img/LocarFita.png" height="50px"> </button>
+            </form>
+            <h3>Locadora de Streams</h3>
+            <div class="nome-usuario">
+               <p >Olá fulan@!</p> 
+            </div>
+            <div class="slogan">
+                <p>Stream is the new fita.</p>
+            </div>
+            
         </header>
+
        
-       <main>
+       <main> 
+           <div class="voltar">
+              <form action="/primeira-etapa/login.html">
+                <button type="submit" id="voltar"><img src="/img/Locar Fita (2).png" height="40px" width="40px"></button>
+            </form> 
+ 
+           </div>
+           
                 <div class="cabecalho">
                     <h3>Bem vind@ à Locadora de Streams online!</h3>
                 </div>
                                      
                 <div class="menu1">
                 <h3>O que vamos fazer agora?</h3><br>
-                    <nav>
-                        <ul>
-                            <li>
-                                <button><a target="blank"href="cadastro.html" style="text-decoration: none;">Cadastrar um filme</a></button>
-                            </li><br>
-                            <li>
-                                <button><a target="blank"href="locacao.html" style="text-decoration: none;">Locar um filme</a></button>
-                            </li><br>
-                            <li>
-                                <button><a target="blank"href="devolucao.html" style="text-decoration: none;">Devolver um filme</a></button>
-                            </li><br>
-                        </ul>
-                    </nav>
+                <nav>
+                    <ul>
+                        <li>
+                            <button><a target="blank"href="cadastro.html" style="text-decoration: none;">Cadastrar um filme</a></button>
+                        </li><br>
+                        <li>
+                            <button><a target="blank"href="devolucao.html" style="text-decoration: none;">Devolver um filme</a></button>
+                        </li><br>
+                        <li>
+                            <button class="acervo-btn"><a target="blank"href="acervo.html" style="text-decoration: none;">Visite nosso acervo</a></button>
+                        </li><br>
+                        <li>
+                            <button><a target="blank"href="sobre.html" style="text-decoration: none;">Porque usar o Stream Fita?</a></button>
+                        </li>
+                    </ul>
+                </nav>
+            </div> 
+                        
+            <div id="items-wrapper">
+                <div id="items">
+                    <img src="/img/atlantis.png" alt="capa-atlantis" height="500px">
+                    <img src="/img/indiana.jpg" alt="capa-indiana" height="500px">
+                    <img src="/img/shrek.jpg" alt="capa-shrek" height="500px">
+                    <img src="/img/naufrago.jpg" alt="capa-naufrago" height="500px">
                 </div>
-                    <div class="logo">
-                        <img src="/img/streamfita-removebg-preview.png">
-                    </div>
-
-               <div class="menu2">
-                    <nav>
-                        <ul> 
-                            <li>
-                            <button class="acervo-btn"><a target="blank"href="acervo.html" style="text-decoration: none;">Conheça nosso acervo</a></button>
-                            <li><br>
-                            <li>
-                            <button class="sobre-btn"><a target="blank"href="sobre.html" style="text-decoration: none;">Sobre</a></button>
-                            </li>
-                        </ul> 
-                    </nav>
-                </div>  
-                    
+            </div>
         </main>
     </body>
 </html>
