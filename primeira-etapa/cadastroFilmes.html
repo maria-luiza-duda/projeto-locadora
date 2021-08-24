@@ -4,35 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastros</title>
+    <link rel='stylesheet' href='/css/cadastroFilmes.css' />
+    <link REL="SHORTCUT ICON" HREF="/img/LocarFita.png" type="image/x-icon">
+    <title>Cadastre um Stream - Locar Stream</title>
 </head>
-    <body>
+    
         <header>
-            <h1>Locadora de Filmes</h1>
             <form action="/primeira-etapa/cadastro.html">
-                <button type="submit" id="voltar"><img src="/img/voltar.png" height="20px" width="20px"></button>
-            </form>
+                <button class="inicio"><img src="/img/LocarFita.png" height="50px"> </button>
+             </form>
+             <h3>Locadora de Streams</h3>
+             <div class="nome-usuario">
+                <p >Olá fulan@!</p> 
+             </div>
+             <div class="slogan">
+                 <p>Stream is the new fita.</p>
+             </div>
+             
+             <div class="voltar">
+                <form action="/primeira-etapa/cadastro.html">
+                    <button type="submit" id="voltar"><img src="/img/Locar Fita (2).png" height="40px" width="40px"></button>
+                </form> 
+            </div>
         </header>
-       
-        <h2>Cadastro de Filmes</h2>
+       <main>
+       <body class="gradient">     
 
-        <fieldset>
-            <legend>Dados do Filme</legend>
-
+            <div class="cabecalho">
+                <h3>Cadastro de Streams</h3>
+            </div>
+            
             <form>
-                    <label>Título do Filme</label>
+                <label>Título do Stream</label>
+                <div class="inputBox">
                     <input type="text" name="Titulo" id="form-titulo" placeholder="nome do titulo" required> 
                     <br><br>
-
-                    <label>Gênero</label>
-                    <select id="quantidade">
-                        <option value="1">Comédia</option>
-                        <option value="2">Ação</option>
-                        <option value="3">Terror</option>
-                        <option value="4">Animação</option>
-                        <option value="5">Drama</option>
-                    </select>
-                    <br><br>
+                </div>
+                        
+                <label>Gênero</label>
+                <select id="quantidade">
+                    <option value="1">Comédia</option>
+                    <option value="2">Ação</option>
+                    <option value="3">Terror</option>
+                    <option value="4">Animação</option>
+                    <option value="5">Drama</option>
+                </select>
+                <br><br>
 
                     <label>Prêmios</label>
                     <input type="checkbox" id="Oscar" value="Oscar"/>Oscar
@@ -45,10 +62,18 @@
                     <label>Descrição</label> 
                     <textarea id="Descrição" rows="10" cols="40" placeholder="Descreva sobre o filme"></textarea>
                     <br><br>
-
-                <button type="button" id="Cadastrar" value="Cadastrar">Cadastrar</button>
+                  
             </form>
 
-        </fieldset>
+                <div class="cadastrar">
+                    <form action="/primeira-etapa/acervo.html">
+                        <button type="button" id="Cadastrar" value="Cadastrar"><a href="/primeira-etapa/acervo.html" style="text-decoration: none;">Cadastrar</a></button>
+                    </form>
+                </div>
+                     
+        </main>
     </body>
+    <footer>
+        <h5>All the rights reserved</h5>
+    </footer>
 </html>

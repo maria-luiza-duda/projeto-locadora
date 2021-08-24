@@ -4,29 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Locadora</title>
+    <link rel='stylesheet' href='/css/infoFilmes.css' />
+    <link REL="SHORTCUT ICON" HREF="/img/LocarFita.png" type="image/x-icon">
+    <title>Atlantis - Stream Fita</title>
 </head>
-    <body>
+    <body class="gradient">
         <header>
-            <h2>Locadora de Filmes</h2>
-            <form action="/primeira-etapa/acervo.html">
-                <button type="submit" id="voltar"><img src="/img/voltar.png" height="20px" width="20px"></button>
-            </form>
+            <form action="/primeira-etapa/inicio.html">
+                <button class="inicio"><img src="/img/LocarFita.png" height="50px"> </button>
+             </form>
+             <h3>Locadora de Streams</h3>
+             <div class="nome-usuario">
+                <p >Olá fulan@!</p> 
+             </div>
+             <div class="slogan">
+                 <p>Stream is the new fita.</p>
+             </div>
+             <div class="voltar">
+                <form action="/primeira-etapa/acervo.html">
+                    <button type="submit" id="voltar"><img src="/img/Locar Fita (2).png" height="40px" width="40px"></button>
+                </form> 
+            </div>
         </header>
+
         <div class="cabecalho-filme">
-
             <h2>Atlantis - O Reino Perdido</h2>
-
-            <img src="/img/atlantis.png" height="500px">
+            <img src="/img/atlantis.png" height="400px">
+            <button id="locar"><a href="/primeira-etapa/locacao.html">Locar</a></button>
         </div>
 
         <div class="informacoes-filme">
 
             <h3>Descrição</h3>
-            <p>O explorador Milo Thatch (Michael J. Fox) recebe inesperadamente um mapa que indica a exata localização da cidade perdida de Atlantis. Juntamente com o Capitão Rourke (James Garner) e sua tripulação, ele parte em busca da cidade a bordo de um submarino, bancado por um excêntrico magnata. Porém, para encontrar Atlantis Milo, Rourke e sua tripulação terão que enfrentar os mais diversos obstáculos ao longo da jornada submarina.</p>
+            <p>O explorador Milo Thatch (Michael J. Fox) recebe inesperadamente um mapa que indica a exata localização da cidade perdida de Atlantis. Juntamente com o Capitão Rourke (James Garner) e sua tripulação, ele parte em busca da cidade a bordo de um submarino, bancado por um excêntrico magnata. Porém, para encontrar Atlantis Milo, Rourke e sua tripulação terão que enfrentar os mais diversos obstáculos ao longo da jornada submarina.</p><br>
 
             <h3>Diretores</h3>
-            <p>Kirk Wise e Gary Trousdale</p>
+            <p>Kirk Wise e Gary Trousdale</p><br>
 
             <h3>Atores principais</h3>
             <ul>
@@ -39,13 +52,19 @@
                 <li>
                     John Mahoney
                 </li>
-            </ul>
+            </ul><br><br><br>
 
-            <h3>Trailer do Filme</h3>
-            <embed src="https://www.youtube.com/embed/sZIimDPZQwg" allowfullscreen="true" width="425" height="344">
+            <h3>Trailer do Filme</h3><br>
+            <embed src="https://www.youtube.com/embed/sZIimDPZQwg" allowfullscreen="true" width="425" height="344"><br><br>
 
-            <h4><a href="https://www.adorocinema.com/filmes/filme-25756/" target="blank">Mais detalhes</a></h4>
+            <div class="detalhes">
+                <button><a href="https://www.adorocinema.com/filmes/filme-25756/" target="blank" style="text-decoration: none;">Mais detalhes</a></button>
+            </div>
+           
         </div>
 
     </body>
+    <footer>
+        <h5>All the rights reserved</h5>
+    </footer>
 </html>

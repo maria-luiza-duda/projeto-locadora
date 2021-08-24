@@ -9,10 +9,9 @@
 header {
     width: 100%;
     height: 70px;  
-    box-shadow: 0px 2px 10px #2B2D42(0, 0, 0.25, 0.25);
+    box-shadow: 0px 2px 10px #2B2D42;
     background: #2B2D42;
-    position: fixed;
-    margin: 0px;
+    margin-top: -20px;
     padding: 0px;
 }
 
@@ -32,6 +31,7 @@ header h3 {
     color: #EDF2F4;
     position:relative;
     margin-top: 20px;
+    padding-top: 20px;
     position: relative;
     margin-left: 555px;
 }
@@ -51,63 +51,47 @@ header .slogan p {
     margin-top: -20px;
 }
 
-
-main .voltar button {
+header .voltar button {
     margin-left: 1200px;
-    margin-top: 10px;
+    margin-top: -35px;
     border-color: transparent;
-    position: absolute;
+    position: fixed;
     background-color: #2B2D42;
 }
 
-main .voltar button:hover {
+header .voltar button:hover {
     background-color: #8D99AE;
 }
 
-
-.cadastro-filmes {
-    margin-top: 150px;
-    margin-left: 150px;
-    position: absolute;
+.cabecalho {
+    margin-top: 30px;
+    margin-left: 40px;
+    position: relative;
+    text-align-last: center;
 }
 
-.cadastro-funcionario {
-    margin-left: 850px;
-    padding-top: 150px;
+.formulario {
+    margin-top: 10px;
+    margin-left: 450px;
 }
 
-.cadastro-funcionario h3 {
-    margin-right: 150px;
-    padding-top: 0px;
-    font-size: 17px;
-}
-
-.cadastro-actions button {
-    background-color: transparent;
-    border-radius: 8px;
-    box-shadow: 0px 2px 10px #2B2D42(0, 0, 0.25, 0.25);
-}
-
-.cadastro-actions button:hover {
-    width: 270px;
-    height: 250px;
-    background-color: #8D99AE;
-    opacity: 1;
-}
-
-footer {
-    background-color: #2B2D42;
+.formulario textarea {
     height: 80px;
-    margin-top: 130px;
-    position: absolute;
-    width: 100vw;
 }
 
-footer h5 {
+.confirmar button {
+    background-color: #2B2D42;
+    height: 30px;
+    width: 110px;
+    margin-left: 120px;
+}
+
+.confirmar button a {
     color: #EDF2F4;
-    text-align: center;
-    padding-top: 30px ;
-    padding-left: 30px;
+}
+
+.confirmar button:hover {
+    background-color: #D90429;
 }
 
 .gradient {
@@ -117,6 +101,21 @@ footer h5 {
     height: 100vh;
     background-size: 300% 300%;
     animation: colors 15s ease infinite;
+}
+
+footer {
+    background-color: #2B2D42;
+    height: 80px;
+    margin-top: 120px;
+    position: absolute;
+    width: 100vw;
+}
+
+footer h5 {
+    color: #EDF2F4;
+    text-align: center;
+    padding-top: 30px ;
+    padding-left: 30px;
 }
 
 @keyframes colors {

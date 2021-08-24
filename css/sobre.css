@@ -14,6 +14,7 @@ header {
     position: fixed;
     margin: 0px;
     padding: 0px;
+    margin-top: -80px;
 }
 
 header form button {
@@ -52,53 +53,43 @@ header .slogan p {
 }
 
 
-main .voltar button {
+header .voltar button {
     margin-left: 1200px;
-    margin-top: 10px;
+    margin-top: -30px;
     border-color: transparent;
     position: absolute;
     background-color: #2B2D42;
 }
 
-main .voltar button:hover {
+header .voltar button:hover {
     background-color: #8D99AE;
 }
 
-
-.cadastro-filmes {
-    margin-top: 150px;
-    margin-left: 150px;
-    position: absolute;
+.cabecalho {
+    margin-top: 80px;
+    margin-left: 100px;
 }
 
-.cadastro-funcionario {
-    margin-left: 850px;
-    padding-top: 150px;
+.avatar .berow{
+    margin-left: 100px;
+    margin-top: 50px;
 }
 
-.cadastro-funcionario h3 {
-    margin-right: 150px;
-    padding-top: 0px;
-    font-size: 17px;
+
+.avatar .lucas{
+    margin-left: 500px;
+    margin-top: -110px;
 }
 
-.cadastro-actions button {
-    background-color: transparent;
-    border-radius: 8px;
-    box-shadow: 0px 2px 10px #2B2D42(0, 0, 0.25, 0.25);
-}
-
-.cadastro-actions button:hover {
-    width: 270px;
-    height: 250px;
-    background-color: #8D99AE;
-    opacity: 1;
+.avatar .malu{
+    margin-left: 900px;
+    margin-top: -110px;
 }
 
 footer {
     background-color: #2B2D42;
     height: 80px;
-    margin-top: 130px;
+    margin-top: 150px;
     position: absolute;
     width: 100vw;
 }
@@ -115,7 +106,7 @@ footer h5 {
     justify-content: center;
     background: linear-gradient(45deg, gray, #EDF2F4, #2B2D42);
     height: 100vh;
-    background-size: 300% 300%;
+    background-size: 200% 150%;
     animation: colors 15s ease infinite;
 }
 
@@ -130,4 +121,6 @@ footer h5 {
     100% {
         background-position: 0% 50%;
     }
+
 }
+

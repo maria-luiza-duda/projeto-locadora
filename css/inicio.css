@@ -3,20 +3,21 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    font-family: 'Palette Mosaic', cursive
 }
 
 header {
     width: 100%;
     height: 70px;  
-    box-shadow: 0px 2px 10px rgba(0, 0, 0.25, 0.25);
-    background: #000;
+    box-shadow: 0px 2px 10px #2B2D42(0, 0, 0.25, 0.25);
+    background: #2B2D42;
     position: fixed;
     margin: 0px;
     padding: 0px;
 }
 
 header form button {
-    background-color: black;
+    background-color: #2B2D42;
     border-color: transparent;
     position: absolute;
     margin-left: 20px;
@@ -24,11 +25,11 @@ header form button {
 }
 
 header form button:hover {
-    background-color: gray;
+    background-color: #8D99AE;
 }
 
 header h3 {
-    color: white;
+    color: #EDF2F4;
     position:relative;
     margin-top: 20px;
     position: relative;
@@ -37,28 +38,30 @@ header h3 {
 
 header .nome-usuario p {
     margin-left: 120px;
-    color: white;
+    color: #EDF2F4;
     position: absolute;
+    margin-top: -20px;
 }
 
 header .slogan p {
     position: absolute;
-    color: white;
+    color: #EDF2F4;
     margin-left: 1020px;
     text-align: right;
+    margin-top: -20px;
 }
 
 
 main .voltar button {
-    margin-left: 1180px;
+    margin-left: 1200px;
     margin-top: 10px;
     border-color: transparent;
     position: absolute;
-    background-color: black;
+    background-color: #2B2D42;
 }
 
 main .voltar button:hover {
-    background-color: gray;
+    background-color: #8D99AE;
 }
 
 main .cabecalho {
@@ -74,20 +77,20 @@ main .cabecalho {
 }
 
 .menu1 button {
-    background-color: black;
-    height: 30px;
-    width: 210px;
+    background-color: #2B2D42;
+    height: 40px;
+    width: 240px;
 }
 
 .menu1 button a {
     font-size: 1em;
-    color: white;
+    color: #EDF2F4;
 }
 
 .menu1 button:hover {
-    background-color: red;
-    color: white;
-    width: 220px;
+    background-color: #D90429;
+    color: #EDF2F4;
+    width: 250px;
 }
 
 body #items-wrapper {
@@ -123,15 +126,28 @@ body #items-wrapper {
     height: 100%;
 }
 
+footer {
+    background-color: #2B2D42;
+    height: 80px;
+    margin-top: 600px;
+    position: absolute;
+    width: 100vw;
+}
+
+footer h5 {
+    color: #EDF2F4;
+    text-align: center;
+    padding-top: 30px ;
+    padding-left: 30px;
+}
 
 .gradient {
     align-items: center;
     justify-content: center;
-    background: linear-gradient(45deg, #0000, #ecc0c0, #0000, #797878c7);
-    height: 200vh;
-    width: 100vw;
-    background-size: 300% 100%;
-    animation: colors 15s infinite;
+    background: linear-gradient(45deg, gray, #EDF2F4, #2B2D42);
+    height: 100vh;
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
 }
 
 @keyframes colors {

@@ -8,7 +8,7 @@
     <link REL="SHORTCUT ICON" HREF="/img/LocarFita.png" type="image/x-icon">
     <title>Acervo de Streams - Stream Fita</title>
 </head>
-    <body>
+    <body class="gradient">
         <header>
             <form action="/primeira-etapa/inicio.html">
                <button class="inicio"><img src="/img/LocarFita.png" height="50px"> </button>
@@ -25,69 +25,108 @@
         
         <main>
             <div class="voltar">
-                <form action="/primeira-etapa/login.html">
+                <form action="/primeira-etapa/inicio.html">
                   <button type="submit" id="voltar"><img src="/img/Locar Fita (2).png" height="40px" width="40px"></button>
-              </form> 
+                </form> 
             </div>
 
-            <div class="cabecalho">
+            <div class="background">
+                 <div class="cabecalho">
                 <h2>Nosso Acervo de Streams</h2>
             </div>
             
-            <nav>
-                <ul>
-                    <li>
-                        <a target="blank"href="#Comédia">Comédia</a>
-                    </li><br>
-                    <li>
-                        <a target="blank"href="#Ação">Ação</a>
-                    </li><br>
-                    <li>
-                        <a target="blank"href="#Terror">Terror</a>
-                    </li><br>
-                    <li>
-                        <a target="blank"href="#Animação">Animação</a>
-                    </li><br>
-                    <li>
-                        <a target="blank"href="#Drama">Drama</a>
-                    </li>
-                </ul>
-            </nav>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <button><a target="blank" href="#Comédia"style="text-decoration: none;">Comédia</a></button>
+                        </li>
+                        <li>
+                            <button><a target="blank"href="#Ação" style="text-decoration: none;">Ação</a></button>
+                        </li>
+                        <li>
+                            <button><a target="blank"href="#Terror" style="text-decoration: none;">Terror</a></button>
+                        </li>
+                        <li>
+                            <button><a target="blank"href="#Animação" style="text-decoration: none;">Animação</a></button>
+                        </li>
+                        <li>
+                            <button><a target="blank" href="#Drama" style="text-decoration: none;">Drama</a></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+           
+            <div class="filme-comedia">
+                <section id="Comédia">
+                    <form action="/primeira-etapa/descricoes/aperte.html">
+                        <button type="submit" id="capa-piloto"> <img src="/img/apertem os cintos.jpg" height="260px" width="200px" alt="Capa do filme Apertem os cintos"> </button>
+                        <p>Apertem os cintos... o piloto sumiu</p>
+                    </form>
+                </section>
+            </div>
 
-            <section id="Comédia">
-
-            </section>
-
-            <section id="Ação">
-                <form action="/primeira-etapa/descricoes/indiana.html">
-                    <button type="submit" id="capa-indiana"> <img src="/img/indiana.jpg" height="260px" width="200px" alt="Capa do filme Indiana Jones"> </button>
-                    <p>Indiana Jones - Os caçadores da arca perdida</p>
-                </form>
-            </section>
-
-            <section id="Terror">
-
-            </section>
-
-            <section id="Animação">
-                <form action="/primeira-etapa/descricoes/atlantis.html">
-                    <button type="submit" id="capa-atlantis"> <img src="/img/atlantis.png" height="260px" width="200px" alt="Capa do filme Atlantis"> </button>
-                    <p>Atlantis - O Reino Perdido</p>
-                </form>
+            <div class="filme-acao">
+                <section id="Ação">
+                    <form action="/primeira-etapa/descricoes/indiana.html">
+                        <button type="submit" id="capa-indiana"> <img src="/img/indiana.jpg" height="260px" width="200px" alt="Capa do filme Indiana Jones"> </button>
+                        <p>Indiana Jones - Os caçadores da arca perdida</p>
+                    </form>
+                </section>
+            </div>
                 
-                <form action="/primeira-etapa/descricoes/shrek.html">
-                    <button type="submit" id="capa-shrek"> <img src="/img/shrek.jpg" height="260px" width="200px" alt="Capa do filme Shrek"> </button>
-                    <p>Shrek</p>
-                </form>
+            <div class="filme-terror">
+                <section id="Terror">
+                    <form action="/primeira-etapa/descricoes/hora.html">
+                        <button type="submit" id="capa-hora"> <img src="/img/fredy K.jpg" height="260px" width="200px" alt="Capa do filme Hora do Pesadelo"> </button>
+                        <p>Hora do pesadelo</p>
+                    </form>
+                </section>
+            </div>
+                
+            <div class="filme-animacao">
+                <section id="Animação">
+                    <div class="filme01">
+                        <form action="/primeira-etapa/descricoes/atlantis.html">
+                            <button type="submit" id="capa-atlantis"> <img src="/img/atlantis.png" height="260px" width="200px" alt="Capa do filme Atlantis"> </button>
+                            <p>Atlantis - O Reino Perdido</p>
+                        </form>
+                    </div>
+                    
+                    <div class="filme02">
+                        <form action="/primeira-etapa/descricoes/shrek.html">
+                            <button type="submit" id="capa-shrek"> <img src="/img/shrek.jpg" height="260px" width="200px" alt="Capa do filme Shrek"> </button>
+                            <p>Shrek</p>
+                        </form>
+                    </div>
+                    
+                </section>
+            </div>
+                
+            <div class="filme-drama">
+                <section id="Drama">
+                    <div class="filme01">
+                        <form action="/primeira-etapa/descricoes/naufrago.html">
+                            <button type="submit" id="capa-naufrago"> <img src="/img/naufrago.jpg" height="260px" width="200px" alt="Capa do filme Náufrago"> </button>
+                            <p>Náufrago</p>
+                        </form>
+                    </div>
+                    
+                    <div class="filme02">
+                        <form action="/primeira-etapa/descricoes/sete.html">
+                            <button type="submit" id="capa-sete"> <img src="/img/Sete_Vidas_Capa.jpg" height="260px" width="200px" alt="Capa do filme Sete Vidas"> </button>
+                            <p>Sete Vidas</p>
+                        </form>
+                    </div>
+                    
+                </section>
+            </div>
+                
             </section>
-
-            <section id="Drama">
-                <form action="/primeira-etapa/descricoes/naufrago.html">
-                    <button type="submit" id="capa-naufrago"> <img src="/img/naufrago.jpg" height="260px" width="200px" alt="Capa do filme Náufrago"> </button>
-                    <p>Náufrago</p>
-                </form>
-            </section>
+           
 
         </main>
     </body>
+    <footer>
+        <h5>All the rights reserved</h5>
+    </footer>
 </html>

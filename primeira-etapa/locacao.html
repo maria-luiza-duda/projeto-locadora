@@ -8,7 +8,7 @@
     <link REL="SHORTCUT ICON" HREF="/img/LocarFita.png" type="image/x-icon">
     <title>Locar Stream - Stream Fita</title>
 </head>
-    <body>
+    <body class="gradient">
         <header>
             <form action="/primeira-etapa/inicio.html">
                <button class="inicio"><img src="/img/LocarFita.png" height="50px"> </button>
@@ -33,7 +33,7 @@
                 <h2> CADASTRO DE LOCAÇÃO </h2> 
                 <br><br>
                 <form name="locacao" action="Formulario_locacao" method="post">
-                    <fieldset>
+                    
                         <label for="cliente">SELECIONE UM CLIENTE :</label>
                         <select id= cliente name="cliente" size="1">	
                             <option value="valor1">-------------</option>
@@ -41,27 +41,34 @@
                             <option value="valor3">flávia</option>
                             <option value="valor4">malu</option>
                             <option value="valor5">lucas</option>
-                        </select>
+                        </select><br>
                         <br>
                         Data Locação:
                             <input type="text" name="dia" size="2" maxlength="2" placeholder="dd"> 
                             <input type="text" name="mes" size="2" maxlength="2" placeholder="mm"> 
                             <input type="text" name="ano" size="4" maxlength="4" placeholder="aaaa">
-                            <br>
+                            <br><br>
                         Data Entrega:
                             <input type="text" name="dia" size="2" maxlength="2" placeholder="dd"> 
                             <input type="text" name="mes" size="2" maxlength="2" placeholder="mm"> 
                             <input type="text" name="ano" size="4" maxlength="4" placeholder="aaaa">
-                            <br>
+                            <br><br>
                         OBSERVAÇÕES <br>
                             <textarea rows="10" cols="40" maxlength="500" placeholder="Digite uma mensagem ..."></textarea>
-                            <br>
-                            <input type="button" name="botao-confirmar" value="CONFIRMAR">
-                    </fieldset>
+                            <br><br>
+                            <div class="confirmar">
+                                <form action="/primeira-etapa/acervo.html">
+                                    <button type="button" id="Cadastrar" value="Cadastrar"><a href="/primeira-etapa/acervo.html" style="text-decoration: none;">Confirmar</a></button>
+                                </form>
+                            </div>
+                    
                 </form>
             </div>
             
         </main>
         
     </body>
+    <footer>
+        <h5>All the rights reserved</h5>
+    </footer>
 </html>

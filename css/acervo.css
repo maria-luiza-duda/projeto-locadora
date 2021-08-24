@@ -3,20 +3,20 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    font-family: 'Palette Mosaic', cursive
 }
 
 header {
     width: 100%;
     height: 70px;  
-    box-shadow: 0px 2px 10px rgba(0, 0, 0.25, 0.25);
-    background: #000;
-    position: fixed;
-    margin: 0px;
+    box-shadow: 0px 2px 10px #2B2D42;
+    background: #2B2D42;
+    margin-top: -20px;
     padding: 0px;
 }
 
 header form button {
-    background-color: black;
+    background-color: #2B2D42;
     border-color: transparent;
     position: absolute;
     margin-left: 20px;
@@ -24,45 +24,293 @@ header form button {
 }
 
 header form button:hover {
-    background-color: gray;
+    background-color: #8D99AE;
 }
 
 header h3 {
-    color: white;
+    color: #EDF2F4;
     position:relative;
     margin-top: 20px;
+    padding-top: 20px;
     position: relative;
     margin-left: 555px;
 }
 
 header .nome-usuario p {
     margin-left: 120px;
-    color: white;
+    color: #EDF2F4;
     position: absolute;
+    margin-top: -20px;
 }
 
 header .slogan p {
     position: absolute;
-    color: white;
+    color: #EDF2F4;
     margin-left: 1020px;
     text-align: right;
+    margin-top: -20px;
 }
 
+main {
+    overflow: hidden;
+    position: absolute;
+}
 
 main .voltar button {
-    margin-left: 1180px;
-    margin-top: 10px;
+    margin-left: 1200px;
+    margin-top: -55px;
     border-color: transparent;
-    position: absolute;
-    background-color: black;
+    position: fixed;
+    background-color: #2B2D42;
 }
 
 main .voltar button:hover {
-    background-color: gray;
+    background-color: #8D99AE;
 }
 
 main .cabecalho {
-    margin-top: 100px;
+    margin-top: 30px;
     margin-left: 510px;
     position: absolute;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-top: 120px;
+    margin-left: 110px;
+    
+}
+
+.menu button {
+    background-color: #2B2D42;
+    height: 30px;
+    width: 120px;
+}
+
+.menu button a {
+    font-size: 1em;
+    color: #EDF2F4;
+}
+
+.menu button:hover {
+    background-color: #D90429;
+    color: EDF2F4;
+    width: 130px;
+}
+
+.filme-comedia #Comédia {
+    display: inline-block;
+    width: 80vw;
+    padding-right: 180px;
+    margin-left: 140px;
+    margin-top: 60px;
+    display: flex;
+}
+
+.filme-comedia button {
+    background-color: #2B2D42;
+}
+
+.filme-comedia button:hover {
+    background-color: #8D99AE;
+}
+
+.filme-comedia button:hover img {
+    width: 210px;
+    height: 270px;
+    font-size: 2em;
+}
+
+.filme-comedia form p {
+    margin-left: -25px;
+    margin-top: 10px;
+}
+
+
+.filme-acao #Ação {
+    width: 80vw;
+    padding-right: 180px;
+    margin-left: 140px;
+    margin-top: 60px;
+    display: flex;
+}
+
+.filme-acao button {
+    background-color: #2B2D42;
+}
+
+.filme-acao button:hover {
+    background-color: #2B2D42;
+}
+
+.filme-acao button:hover img {
+    width: 210px;
+    height: 270px;
+    font-size: 2em;
+}
+
+.filme-acao form p {
+    margin-left: -55px;
+    margin-top: 10px;
+}
+
+.filme-terror #Terror {
+    width: 80vw;
+    padding-right: 180px;
+    margin-left: 140px;
+    margin-top: 60px;
+    display: flex;
+}
+
+.filme-terror button {
+    background-color: #2B2D42;
+}
+
+.filme-terror button:hover {
+    background-color: #8D99AE;
+}
+
+.filme-terror button:hover img {
+    width: 210px;
+    height: 270px;
+    font-size: 2em;
+}
+
+.filme-terror form p {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+
+.filme-animacao #Animação {
+    width: 80vw;
+    padding-right: 180px;
+    margin-left: 140px;
+    margin-top: 60px;
+    display: flex;
+}
+
+.filme-animacao .filme01 button  {
+    background-color: #2B2D42;
+}
+
+.filme-animacao .filme01 button:hover {
+    background-color: #8D99AE;
+}
+
+.filme-animacao .filme01 button:hover img {
+    width: 210px;
+    height: 270px;
+    font-size: 2em;
+}
+
+.filme-animacao .filme01 form p {
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.filme-animacao .filme02 button  {
+    background-color: #2B2D42;
+    margin-left: 110px;
+}
+
+.filme-animacao .filme02 button:hover {
+    background-color: #8D99AE;
+}
+
+.filme-animacao .filme02 button:hover img {
+    width: 210px;
+    height: 270px;
+    font-size: 2em;
+}
+
+.filme-animacao .filme02 form p {
+    margin-left: 190px;
+    margin-top: 10px;
+}
+
+.filme-drama #Drama {
+    width: 80vw;
+    padding-right: 180px;
+    margin-left: 140px;
+    margin-top: 60px;
+    display: flex;
+}
+
+.filme-drama .filme01 button  {
+    background-color: #2B2D42;
+}
+
+.filme-drama .filme01 button:hover {
+    background-color: #8D99AE;
+}
+
+.filme-drama .filme01 button:hover img {
+    width: 210px;
+    height: 270px;
+    font-size: 2em;
+}
+
+.filme-drama .filme01 form p {
+    margin-left: 65px;
+    margin-top: 10px;
+}
+
+.filme-drama .filme02 button  {
+    background-color: #2B2D42;
+    margin-left: 110px;
+}
+
+.filme-drama .filme02 button:hover {
+    background-color: #8D99AE;
+}
+
+.filme-drama .filme02 button:hover img {
+    width: 210px;
+    height: 270px;
+    font-size: 2em;
+}
+
+.filme-drama .filme02 form p {
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+
+footer {
+    background-color: #2B2D42;
+    height: 80px;
+    margin-top: 2000px;
+    position: absolute;
+    width: 100vw;
+}
+
+footer h5 {
+    color: #EDF2F4;
+    text-align: center;
+    padding-top: 30px ;
+    padding-left: 30px;
+}
+
+.gradient {
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, gray, #EDF2F4, #2B2D42);
+    height: 350vh;
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+       
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+
 }
